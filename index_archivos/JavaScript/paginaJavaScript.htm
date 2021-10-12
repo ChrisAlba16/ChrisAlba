@@ -1,0 +1,235 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<script>
+  let score = 0;
+  let bestScore = 0;
+  if (localStorage.getItem('bestScore')) {
+    bestScore = localStorage.getItem('bestScore');
+  }
+  let skills = ["Android Studio","Amazon Web Services","Blender",
+              "C#","C","C++",
+              "CSS","DynamoDB","JavaScript",
+              "HTML","Java","MongoDB",
+              "MySQL","Python","React"];
+</script>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<link rel=File-List href="paginaJavaScript_archivos/filelist.xml">
+<title>Interactive Resume</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+canvas {
+  display: block;
+}
+
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:9.0pt;
+	line-height:125%;
+	text-align:left;
+	font-family:Georgia;
+	font-size:11.9511pt;
+	color:black;}
+ol
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+ul
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+@page
+	{size:8.0302in 11.0in;}
+</style>
+</head>
+
+<body link=blue vlink="#660099" bgcolor=white
+background="paginaJavaScript_archivos/image343.png" style='margin:0'>
+
+<div style='position:absolute;width:11.-2308in;height:5.0257in'>
+<![if !vml]><span style='position:absolute;z-index:1;
+left:138px;top:16px;width:1127px;height:108px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=1127 height=108 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1025" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:20.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>INTERACTIVE RESUME</span><span lang=es-MX
+  style='font-size:14.0pt;line-height:125%;font-family:Georgia;color:white;
+  language:es-MX'> </span></p>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:14.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>Play the game to see some of my abilities! </span></p>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:14.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>&nbsp;</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;z-index:2;
+left:936px;top:95px;width:406px;height:37px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=406 height=37 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1026" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:150%'><span
+  lang=en-US style='font-size:14.0pt;line-height:150%;font-family:Georgia;
+  color:white;text-decoration:underline;language:en-US'>Christopher Alba Arcos - 2021 - UAC</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;z-index:3;
+left:59px;top:95px;width:201px;height:37px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=201 height=37 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1027" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><a
+  href="../../index.htm"><span
+  lang=en-US style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  text-decoration:underline;language:en-US'>Previous Page</span></a></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;z-index:4;
+left:60px;top:141px;width:314px;height:142px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=314 height=142 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1028" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>W/Space      —     Jump</span></p>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:10.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>S      —     Crouch</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;z-index:5;
+left:473px;top:141px;width:160px;height:119px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=160 height=119 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1029" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>Score:</span></p>
+  <p id = "scoreText" class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'><span dir=ltr></span>0</span></p>
+  </div>
+  
+  <script>
+    let scoreT = document.getElementById("scoreText").firstChild;
+    let t = scoreT.textContent;
+    scoreT.textContent = t.replace(t, score);
+
+    document.addEventListener("point", () => {
+      score++;
+      scoreT.textContent = t.replace(t, score);
+    });
+
+    document.addEventListener("dead", () => {
+      score = 0;
+      scoreT.textContent = t.replace(t, score);
+      alert("Oh, no! It seems that you got some problems with "+skills[index]+" but I can help you. Call me!");
+    });
+  </script>
+
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;z-index:6;
+left:767px;top:143px;width:161px;height:119px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=161 height=119 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1030" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'>Best Score:</span></p>
+  <p id= "bestScore" class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=es-MX style='font-size:16.0pt;line-height:125%;font-family:Georgia;
+  color:white;language:es-MX'><span dir=ltr></span>0</span></p>
+  </div>
+
+    <script>
+    let bestT = document.getElementById("bestScore").firstChild;
+    let bt = bestT.textContent;
+    bestT.textContent = bt.replace(bt, bestScore);
+
+    document.addEventListener("newBest", () => {
+      bestT.textContent = bt.replace(bt, score);
+    });
+
+    document.addEventListener("dead", () => {
+      bestScore = parseInt(document.getElementById("bestScore").textContent, 10);
+      window.localStorage.setItem('bestScore', bestScore);
+      bestT.textContent = bt.replace(bt, bestScore);
+    });
+  </script>
+
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><![if !vml]><span style='position:absolute;
+z-index:7;left:1030px;top:140px;width:316px;height:89px'><map
+name=MicrosoftOfficeMap0><area shape=Rect
+coords="150, 0, 316, 75" href="../cv.doc"><area
+shape=Rect coords="75, 0, 316, 75" href="https://github.com/ChrisAlba16"><area
+shape=Rect coords="0, 0, 316, 75"
+href="https://www.linkedin.com/in/christopher-gregorio-alba-arcos-932a65215/"></map><img
+border=0 width=253 height=71 src="paginaJavaScript_archivos/image268.png"
+usemap="#MicrosoftOfficeMap0" v:shapes="_x0000_s1031 Imagen_x0020_16 Imagen_x0020_15 Imagen_x0020_24"></span><![endif]>
+
+<![if !vml]>
+<div style="position:relative;top:100px;">
+    <canvas id="game" width="640" height="400"></canvas>
+    <script src="main.js"></script>
+</div>
+<![endif]>
+
+</div>
+
+</body>
+
+</html>
